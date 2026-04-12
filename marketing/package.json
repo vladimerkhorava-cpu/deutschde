@@ -1,0 +1,17 @@
+{
+  "name": "deutschde-marketing-agents",
+  "version": "1.0.0",
+  "description": "AI-powered marketing agents for DeutschDE",
+  "type": "module",
+  "main": "agents.js",
+  "scripts": {
+    "content": "node agents.js content",
+    "email": "node agents.js email",
+    "seo": "node agents.js seo",
+    "engage": "node agents.js engage",
+    "all": "node agents.js all"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}
